@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:fragment="jp.kaleidot725.sample.setting.ChildPreferenceFragment"
+        app:icon="@mipmap/ic_launcher"
+        app:key="childPreferenceFragment"
+        app:title="Navigate Child Preference" />
+
+    <Preference
+        app:fragment="jp.kaleidot725.sample.setting.CustomFragment"
+        app:icon="@mipmap/ic_launcher"
+        app:key="navigateCustomFragment"
+        app:title="Navigate Custom Preference" />
+
+    <Preference
+        app:icon="@mipmap/ic_launcher"
+        app:key="intent"
+        app:title="Google Web Search">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.google.com" />
+
+    </Preference>
+
+    <CheckBoxPreference
+        app:icon="@mipmap/ic_launcher"
+        app:key="checkBoxPreference"
+        app:title="CheckBox" />
+
+    <DropDownPreference
+        app:entries="@array/entries"
+        app:entryValues="@array/entryValues"
+        app:icon="@mipmap/ic_launcher"
+        app:key="dropDownPreference"
+        app:title="DropDownPreference"
+        app:useSimpleSummaryProvider="true" />
+
+    <ListPreference
+        app:entries="@array/entries"
+        app:entryValues="@array/entryValues"
+        app:icon="@mipmap/ic_launcher"
+        app:key="listPreference"
+        app:title="ListPreference"
+        app:useSimpleSummaryProvider="true" />
+
+    <MultiSelectListPreference
+        app:entries="@array/entries"
+        app:entryValues="@array/entryValues"
+        app:icon="@mipmap/ic_launcher"
+        app:key="multiSelectListPreference"
+        app:title="MultiSelectListPreference" />
+
+    <SeekBarPreference
+        app:icon="@mipmap/ic_launcher"
+        app:key="seekBarPreference"
+        android:max="99"
+        app:min="1"
+        app:title="SeekBarPReference" />
+
+    <SwitchPreferenceCompat
+        app:icon="@mipmap/ic_launcher"
+        app:key="switchPreference"
+        app:title="Switch"
+        app:useSimpleSummaryProvider="true" />
+
+    <EditTextPreference
+        app:icon="@mipmap/ic_launcher"
+        app:key="editTextPreference"
+        app:title="EditText"
+        app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>

@@ -1,0 +1,1 @@
+# compose-licence-tool-plugin

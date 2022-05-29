@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/normal_dialog_fragment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/normal_dialog_fragment" />
+
+    <Button
+        android:id="@+id/fullscreen_dialog_fragment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fullscreen_dialog_fragment" />
+
+    <Button
+        android:id="@+id/background_dialog_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/background_dialog_fragment" />
+
+    <Button
+        android:id="@+id/rounded_dialog_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rounded_dialog_fragment" />
+
+    <Button
+        android:id="@+id/background_dim_disabled_dialog_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/background_dim_disabled_dialog_fragment" />
+
+    <Button
+        android:id="@+id/window_close_on_touch_outside_disable_dialog_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/window_close_on_touch_outside_disable_dialog_fragment" />
+</LinearLayout>

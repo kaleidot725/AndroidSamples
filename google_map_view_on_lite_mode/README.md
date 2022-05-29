@@ -1,0 +1,1 @@
+# google_map_view_on_lite_mode
